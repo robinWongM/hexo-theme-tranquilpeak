@@ -32,7 +32,7 @@
         -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
         -moz-transition:    opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
         transition:         opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
-        @include prefix(transform, translate3d(0, 0, 0), 'webkit' 'moz' 'ms');
+        @include prefix(transform, translate(0, 0), 'webkit' 'moz' 'ms');
         pointer-events:     none;
     }
 

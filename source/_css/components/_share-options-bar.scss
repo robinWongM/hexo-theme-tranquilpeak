@@ -1,18 +1,18 @@
 .share-options-bar {
     position:           fixed;
-    // height + border-top
-    // used to hide the div at the bottom of the window
-    bottom:             -156px;
+    // Show at the bottom
+    bottom:             0;
     background:         white;
-    height:             155px;
     clear:              both;
     border-top:         1px solid #eef2f8;
     transition:         transform .25s ease-in-out;
     z-index:            map-get($z-indexes, 'c-share-options-bar');
     -webkit-transition: -webkit-transform .25s ease-in-out;
+
     // use to animate the share option bar
+    @include prefix(transform, translate(0, 100%), 'webkit' 'moz');
     &.opened {
-        @include prefix(transform, translate3d(0, -155px, 0), 'webkit' 'moz');
+        @include prefix(transform, translate(0, 0), 'webkit' 'moz');
     }
 
     .share-options {

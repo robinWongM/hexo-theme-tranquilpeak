@@ -10,7 +10,7 @@ global:
     archives: "归档"
     search: "搜索"
     about: "关于"
-    author_picture: "作者的图片"
+    author_picture: "作者的头像"
     github: "GitHub"
     stack_overflow: "Stack Overflow"
     twitter: "Twitter"
@@ -54,10 +54,10 @@ post:
     toc: "目录"
     read_more: "阅读全文"
     go_to_website: "转到"
-    comment_and_share: "注释和共享"
+    comment_and_share: "查看评论"
 
 author:
     # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: ""
+    bio: "真正的粉丝."
     # 你的工作简介
     job: ""

@@ -1,6 +1,7 @@
 <div class="post-actions-wrap">
     <nav>
         <ul class="post-actions post-action-nav">
+        <% if (post.layout != "page") { %>
             <li class="post-action">
                 <% if (post.prev) { %>
                     <a class="post-action-btn btn btn--default tooltip--top" href="<%- url_for(post.prev.path) %>"  data-tooltip="<%= post.prev.title || '(' + __('post.no_title') + ')' %>">
@@ -21,6 +22,7 @@
                     <i class="fa fa-angle-right"></i>
                 </a>
             </li>
+        <% } %>
         </ul>
     </nav>
     <ul class="post-actions post-action-share">

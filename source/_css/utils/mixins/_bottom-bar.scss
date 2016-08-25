@@ -28,19 +28,19 @@
 /// Mixin helper to pushed bottom bar from medium sidebar size
 @mixin bottom-bar-pushed-md {
     &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
+        @include prefix(transform, translate(#{map-get($sidebar, md-screen-width)}, 0), 'webkit' 'moz');
     }
 }
 
 /// Mixin helper to pushed bottom bar from large sidebar size
 @mixin bottom-bar-pushed-lg {
     &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
+        @include prefix(transform, translate(#{map-get($sidebar, lg-screen-width)}, 0), 'webkit' 'moz');
     }
 }
 /// Mixin helper to pushed bottom bar from extra large sidebar size
 @mixin bottom-bar-pushed-xlg {
     &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, xlg-screen-width)}, 0, 0), 'webkit' 'moz');
+        @include prefix(transform, translate(#{map-get($sidebar, xlg-screen-width)}, 0), 'webkit' 'moz');
     }
 }

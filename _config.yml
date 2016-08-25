@@ -32,36 +32,36 @@ image_dir: assets/images
 sidebar:
     menu:
         home:
-            title: global.home
+            title: 蛙声一片
             url: /
-            icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
+            icon: terminal
+        about:
+            title: global.about
+            url: /about
+            icon: file-o
         archives:
             title: global.archives
-            url: /all-archives
-            icon: archive
+            url: /archives
+            icon: book
         search:
             title: global.search
             url: /#search
             icon: search
             # `open-algolia-search` classes are used to open algolia search modal
             class: open-algolia-search
-        about:
-            title: global.about
-            url: /#about
-            icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/robinWongM
+            icon: github
+        weibo:
+            title: 微博
+            url: http://weibo.com/979924090
+            icon: weibo
+        netease_music:
+            title: 网易云音乐
+            url: http://music.163.com/#/user/home?id=80802161
+            icon: headphones
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -113,12 +113,12 @@ header:
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
     email:
-    location:
+    location: Guangdong
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: 'http://ww1.sinaimg.cn/large/8cd8d7b3gw1f73yvlko9gj2062062wfw.jpg'
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.

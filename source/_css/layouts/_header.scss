@@ -68,7 +68,7 @@
     }
     // Class used to swipe to the top the header on small screen when the user scroll down
     &.header-up {
-        @include prefix(transform, translate3d(0, -#{map-get($header, height)}, 0), 'webkit' 'moz');
+        @include prefix(transform, translate(0, -#{map-get($header, height)}), 'webkit' 'moz');
     }
 
     // Push the header from the size of the large sidebar
